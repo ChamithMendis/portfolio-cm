@@ -23,11 +23,11 @@ export default function Navbar() {
     { name: 'Contact', href: '#contact' },
   ];
 
-  const scrollToSection = (href: string) => {
+  const scrollToSection = (href: string, mobileMenu: boolean = false) => {
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      setIsMobileMenuOpen(false);
+      setIsMobileMenuOpen(mobileMenu);
     }
   };
 
@@ -82,7 +82,10 @@ export default function Navbar() {
               {navLinks.map((link) => (
                 <button
                   key={link.name}
-                  onClick={() => scrollToSection(link.href)}
+                  onClick={() => {
+                    setIsMobileMenuOpen(false); 
+                     setTimeout(() => scrollToSection(link.href), 50); 
+                  }}
                   className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors"
                 >
                   {link.name}
