@@ -38,11 +38,32 @@ export const skills = {
 export const projects = [
   {
     id: 1,
-    title: "Moden UI web site",
+    title:
+      "Angular / Spring Boot based Online Book Store (Limited Functionality)",
     description: `This full-stack bookstore app dashboard uses AWS EC2, RDS for hosting, database. 
                   It demonstrates deployment and configuration of a production-ready cloud-native system.`,
-    techStack: ["Angular", "SpringBoot / Spring Security", "MYSql"],
+    techStack: [
+      "Angular",
+      "SpringBoot / Spring Security",
+      "REST",
+      "AWS (EC2/S3)",
+      "MYSql",
+    ],
     github: "https://github.com/ChamithMendis/online-bookstore",
+    demo: "#",
+  },
+  {
+    id: 2,
+    title: "Java Based Microservices Project",
+    description: `This project implements an architecture composed of multiple services which communicate using REST / Spring Cloud stack.`,
+    techStack: [
+      "SpringBoot / Spring Cloud Gateway",
+      "REST",
+      "MYSql / MongoDB",
+      "Kafka",
+      "Docker",
+    ],
+    github: "https://github.com/ChamithMendis/microservices-project",
     demo: "#",
   },
   // {
