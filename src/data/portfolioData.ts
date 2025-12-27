@@ -54,7 +54,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Java Based Microservices Project",
+    title: "Spring Boot Based Microservices Project",
     description: `This project implements an architecture composed of multiple services which communicate using REST / Spring Cloud stack.`,
     techStack: [
       "SpringBoot / Spring Cloud Gateway",
