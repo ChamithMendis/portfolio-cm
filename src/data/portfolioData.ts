@@ -17,7 +17,7 @@ export const aboutMe = {
   highlights: [
     "5+ years in Full Stack Software Engineering",
     "UAT & PRODUCTION support for Issue fixes and CR developments",
-    "Build, test and deploy sysmtes.",
+    "Build, test and deploy systems.",
     "Team mentoring, guiding juniors and work reviews",
   ],
 };
