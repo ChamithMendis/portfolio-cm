@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Chamith Mendis",
   title: "Full Stack Software Engineer", // DevOps Engineer | Full Stack Developer
   tagline:
-    "I build scalable, user-centered applications using modern web frameworks, and cloud technologies.",
+    "Senior Full-Stack Engineer with 4+ years building enterprise systems using modern technologies for global clients.",
   email: "chamithmendis25@gmail.com",
   github: "https://github.com/ChamithMendis",
   linkedin: "https://www.linkedin.com/in/chamithmendis/",
